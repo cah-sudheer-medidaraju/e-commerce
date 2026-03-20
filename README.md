@@ -1,27 +1,30 @@
-# React + TypeScript + Vite
+# E-Commerce Demo App
+A modern e-commerce demo built with React, TypeScript, and Vite.  
+The app showcases a realistic storefront experience with product search, category filtering, cart management, account registration, and order tracking workflows.
+## Features
+- Product listing with responsive UI
+- Search products by keyword with category filters
+- Add, update, and remove items from cart
+- Simple account registration flow
+- Place, view, update, and delete orders
+- Toast notifications and loading/error states
+- Mock API + local storage for persistent demo behavior
+## Tech Stack
+- React 18
+- TypeScript
+- Vite
+- React Router DOM
+- ESLint
+## Getting Started
+### Prerequisites
+- Node.js (v18+ recommended)
+- npm
+### Installation
+```bash
+npm install
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Run in Development
+npm run dev
+Build for Production
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+npm run build
